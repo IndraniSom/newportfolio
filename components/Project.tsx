@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
+import type { Dispatch, SetStateAction } from "react";
 interface Tag {
   id: string; // Unique identifier for the tag
   path: string; // Path to the tag image
@@ -13,8 +14,7 @@ interface ProjectDetailsProps {
   image: string; // Path to the project image
   tags: Tag[]; // Array of tags associated with the project
   href: string; // URL to view the project
-  
-  setPreview: any; // Function to set the preview image
+  setPreview: Dispatch<SetStateAction<string | null>>;
 }
 const Project = ({
   title,

@@ -6,7 +6,7 @@ import { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Bot, User, Send, ChevronDown } from "lucide-react"
 import { HandWrittenTitle } from "@/components/ui/hand-writing-text"
-import { Techstack } from "./Techstack"
+
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 
 interface Message {

@@ -12,7 +12,9 @@ const Projects = () => {
     x.set(e.clientX + 20);
     y.set(e.clientY + 20);
   };
-  const [preview, setPreview] = useState(null);
+  const [preview, setPreview] = useState<string | null>(null);
+
+
   return (
     <section
     id="project"

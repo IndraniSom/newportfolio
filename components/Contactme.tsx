@@ -8,6 +8,7 @@ const people = [
     designation: "Github",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4ysYC7szJota8leHmBQYJSqprOT20cE7Mz3n5",
+    link:""
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ const people = [
     designation: "Linkedin",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4R2e9TqLKqjPXtc94luwZAYWFSheVkNTIGmDo",
+    link:""
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const people = [
     designation: "Leetcode",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4kW9vAjmeOPsm5a6MY3t2Hvi4yLoXjFVDBgqx",
+    link:""
   },
 //   {
 //     id: 4,
@@ -36,6 +39,7 @@ const people = [
     designation: "Hackerrank",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4AKJEC6tDWcESY1U9vhKdZtnxNsMjr4P3Bya8",
+    link:""
   },
   {
     id: 6,
@@ -43,6 +47,7 @@ const people = [
     designation: "GFG",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4L4B047cm1NGkVDhUYJyXA7F0b5uB9WI8RaHs",
+    link:""
   },
   
 ];
