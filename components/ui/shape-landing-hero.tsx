@@ -87,7 +87,7 @@ function HeroGeometric() {
           </div>
 
           {/* Right content */}
-          <div className="flex-1 hidden md:relative h-[400px] md:h-[500px]">
+          <div className="flex-1 hidden md:block relative h-[400px] md:h-[500px]">
             <SplineScene
               scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
               className="w-full min-h-screen"

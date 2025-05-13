@@ -1,3 +1,5 @@
+import { p } from "framer-motion/client";
+
 export const myProjects = [
   {
     id: 1,
@@ -15,19 +17,10 @@ export const myProjects = [
     tags: [
       {
         id: "1",
-        name: "C#",
-        path: "/assets/logos/csharp.svg"
+        name: "Nextjs",
+        path: "/assets/logos/nextjs.png"
       },
-      {
-        id: "2",
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg"
-      },
-      {
-        id: "3",
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png"
-      },
+      
       {
         id: "4",
         name: "TailwindCSS",
@@ -50,11 +43,7 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/oldportfolio.png",
     tags: [
-      {
-        id: "1",
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg"
-      },
+      
       {
         id: "2",
         name: "React",
@@ -62,8 +51,8 @@ export const myProjects = [
       },
       {
         id: "3",
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg"
+        name: "ThreeJS",
+        path: "/assets/logos/threejs.svg"
       },
       {
         id: "4",
@@ -90,24 +79,29 @@ export const myProjects = [
     tags: [
       {
         id: "1",
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg"
+        name: "Nextjs",
+        path: "/assets/logos/nextjs.png"
       },
       {
         id: "2",
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg"
+        name: "MongoDb",
+        path: "/assets/logos/mongodb.svg"
       },
       {
         id: "3",
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg"
+        name: "NodeJs",
+        path: "/assets/logos/nodejs.svg"
       },
       {
         id: "4",
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg"
-      }
+      },
+      {
+        id: "5",
+        name: "ExpressJs",
+        path: "/assets/logos/express.svg"
+      },
     ]
   }
 ];
