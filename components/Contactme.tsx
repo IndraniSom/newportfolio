@@ -43,11 +43,11 @@ const people = [
   },
   {
     id: 6,
-    name: "Tyler Durden",
-    designation: "GFG",
+    name: "404_coder_not_found",
+    designation: "Instagram",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4L4B047cm1NGkVDhUYJyXA7F0b5uB9WI8RaHs",
-    link:""
+    link:"https://www.instagram.com/404_coder_not_found"
   },
   
 ];
