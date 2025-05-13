@@ -19,7 +19,7 @@ const Projects = () => {
     <section
     id="project"
       onMouseMove={handleMouseMove}
-      className="relative pt-5 bg-[#040303] text-white px-20"
+      className="relative pt-5 bg-[#040303] text-white px-10 md:px-20"
     >
       <h2 className="text-heading text-xl md:text-5xl" style={{ fontFamily: 'Sdrobotics' }}>From pixels to projects: Here's my jam! 🧠⚡️</h2>
       <div className=" mt-12 h-[1px] w-full" />
