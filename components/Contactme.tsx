@@ -8,7 +8,7 @@ const people = [
     designation: "Github",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4ysYC7szJota8leHmBQYJSqprOT20cE7Mz3n5",
-    link:""
+    link:"https://github.com/IndraniSom"
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const people = [
     designation: "Linkedin",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4R2e9TqLKqjPXtc94luwZAYWFSheVkNTIGmDo",
-    link:""
+    link:"https://www.linkedin.com/in/indrani-som-258498248/"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const people = [
     designation: "Leetcode",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4kW9vAjmeOPsm5a6MY3t2Hvi4yLoXjFVDBgqx",
-    link:""
+    link:"https://leetcode.com/u/indrani0/"
   },
 //   {
 //     id: 4,
@@ -35,18 +35,18 @@ const people = [
 //   },
 {
     id: 5,
-    name: "Dora",
+    name: "indranisom39",
     designation: "Hackerrank",
     image:
       "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4AKJEC6tDWcESY1U9vhKdZtnxNsMjr4P3Bya8",
-    link:""
+    link:"https://www.hackerrank.com/profile/indranisom39"
   },
   {
     id: 6,
     name: "404_coder_not_found",
     designation: "Instagram",
     image:
-      "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4L4B047cm1NGkVDhUYJyXA7F0b5uB9WI8RaHs",
+      "https://1ront6p1k5.ufs.sh/f/soVBug6ZpaX4ZhtlDHi1o6crGqJHUZkIht5MPsfmnwy7uxYv",
     link:"https://www.instagram.com/404_coder_not_found"
   },
   

@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import Link from "next/link";
+import Image from "next/image";
 interface Tag {
   id: string; // Unique identifier for the tag
   path: string; // Path to the tag image
@@ -35,7 +36,7 @@ const ProjectDetails = ({
           onClick={closeModal}
           className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
         >
-          <img src="assets/close.svg" className="w-6 h-6" />
+          <Image src="assets/close.svg" alt="" width={10} height={10} className="w-6 h-6" />
         </button>
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <div className="p-5">
@@ -57,7 +58,7 @@ const ProjectDetails = ({
             </div>
             <Link href={href} className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation">
               View Project{" "}
-              <img src="assets/arrow-up.svg" className="size-4"  />
+              <Image  src="assets/arrow-up.svg" alt="" width={20} height={20} className="size-4"  />
             </Link>
           </div>
         </div>

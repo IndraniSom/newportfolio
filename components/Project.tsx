@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
 import type { Dispatch, SetStateAction } from "react";
+import Image from "next/image";
 interface Tag {
   id: string; // Unique identifier for the tag
   path: string; // Path to the tag image
@@ -48,7 +49,7 @@ const Project = ({
           className="flex items-center gap-1 cursor-pointer hover-animation"
         >
           Read More
-          <img src="assets/arrow-right.svg" className="w-5" />
+          <Image src="assets/arrow-right.svg" alt="" width={10} height={10} className="w-5" />
         </button>
       </div>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />

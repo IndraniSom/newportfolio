@@ -21,7 +21,7 @@ const Projects = () => {
       onMouseMove={handleMouseMove}
       className="relative pt-5 bg-[#040303] text-white px-20"
     >
-      <h2 className="text-heading text-xl md:text-4xl" style={{ fontFamily: 'Sdrobotics' }}>From pixels to projects: Here's my jam! 🧠⚡️</h2>
+      <h2 className="text-heading text-xl md:text-5xl" style={{ fontFamily: 'Sdrobotics' }}>From pixels to projects: Here's my jam! 🧠⚡️</h2>
       <div className=" mt-12 h-[1px] w-full" />
       {myProjects.map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />
