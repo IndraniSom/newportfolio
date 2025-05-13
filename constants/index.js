@@ -97,11 +97,7 @@ export const myProjects = [
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg"
       },
-      {
-        id: "5",
-        name: "ExpressJs",
-        path: "/assets/logos/express.svg"
-      },
+      
     ]
   }
 ];
